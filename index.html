@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Navbar</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">Flipkart</a>
+                <span class="explore-plus">Explore <span>Plus</span></span>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products, brands and more">
+                <button type="button">🔍</button>
+            </div>
+            <div class="nav-links">
+                <a href="#">Login</a>
+                <a href="#">Become a Seller</a>
+                <a href="#">More</a>
+                <a href="#">Cart</a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Electronics</a></li>
+                <li><a href="#">TVs & Appliances</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Baby & Kids</a></li>
+                <li><a href="#">Home & Furniture</a></li>
+                <li><a href="#">Sports, Books & More</a></li>
+                <li><a href="#">Flights</a></li>
+                <li><a href="#">Offer Zone</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+        <main>
+        <aside class="filters">
+        <h2>Filters</h2>
+        <div class="filter-category">
+            <h3>Categories</h3>
+            <p>Mobiles & Accessories</p>
+            <p>Mobiles</p>
+        </div>
+        <div class="filter-price">
+            <h3>Price</h3>
+            <input type="range" min="0" max="30000" step="100" value="15000">
+            <div class="price-inputs">
+                <input type="number" placeholder="Min">
+                <span>to</span>
+                <input type="number" placeholder="₹30000+">
+            </div>
+        </div>
+        <div class="filter-brand">
+            <h3>Brand</h3>
+            <input type="checkbox" id="realme">
+            <label for="realme">realme</label>
+            <img src="assured.jpg" alt="Assured">
+        </div>
+        <div class="filter-ratings">
+            <h3>Customer Ratings</h3>
+            <input type="checkbox" id="4star">
+            <label for="4star">4★ & above</label><br>
+            <input type="checkbox" id="3star">
+            <label for="3star">3★ & above</label>
+        </div>
+        <div class="filter-section">
+            <h3>RAM</h3>
+            <label><input type="checkbox"> 4 GB</label><br>
+            <label><input type="checkbox"> 3 GB</label><br>
+            <label><input type="checkbox"> 2 GB</label><br>
+            <label><input type="checkbox"> 8 GB and Above</label><br>
+            <label><input type="checkbox"> 6 GB</label><br>
+            <label><input type="checkbox"> 6 GB Above</label><br>
+            <label><input type="checkbox"> G</label><br>
+            <label><input type="checkbox"> A</label><br>
+            <label><input type="checkbox"> E</label><br>
+            <label><input type="checkbox"> B</label><br>
+            <label><input type="checkbox"> P</label><br>
+        </div>
+        <div class="filter-section">
+            <h3>Internal Storage</h3>
+            <label><input type="checkbox"> 256 GB & Above</label><br>
+            <label><input type="checkbox"> 128 - 255.9 GB</label><br>
+            <label><input type="checkbox"> 64 - 127.9 GB</label><br>
+            <label><input type="checkbox"> 32 - 63.9 GB</label><br>
+            <label><input type="checkbox"> 16 - 31.9 GB</label><br>
+            <label><input type="checkbox"> E</label><br>
+            <label><input type="checkbox"> G</label><br>
+            <label><input type="checkbox"> A</label><br>
+            <label><input type="checkbox"> 256 GB Above</label><br>
+            <label><input type="checkbox"> B</label><br>
+        </div>
+        
+    </aside>
+
+        <section class="product-list">
+            <h2> 5G Mobiles</h2>
+            <div class="product-item">
+                
+                <img src="./realme1.jpg" alt="Realme 13 Pro 5G">
+                <div class="product-details">
+                
+                    <h3>realme 13 Pro 5G (Monet Gold, 128 GB)</h3>
+                    <p>8 GB RAM | 128 GB ROM</p>
+                    <p>17.02 cm (6.7 inch) Full HD+ Display</p>
+                    <p>50MP + 8MP + 2MP | 32MP Front Camera</p>
+                    <p>5000 mAh Battery</p>
+                    <p>Snapdragon 7 Gen2 Processor</p>
+                    <div class="rupee">
+                        <p>₹26,999</p>
+                        <div class="button-container">
+                            <button class="btn add-to-cart">
+                                <i class="cart-icon"></i>
+                                ADD TO CART
+                            </button>
+                            <button class="btn buy-now">
+                                <i class="lightning-icon"></i>
+                                BUY NOW
+                            </button>
+                        </div>
+                        </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="realme2.jpg" alt="Realme 13 Pro 5G">
+                <div class="product-details">
+                    <h3>realme 13 Pro+ 5G (Emerald Green, 256 GB)</h3>
+                    <p>8 GB RAM | 256 GB ROM</p>
+                    <p>17.02 cm (6.7 inch) Full HD+ Display</p>
+                    <p>50MP + 8MP + 2MP | 32MP Front Camera</p>
+                    <p>5000 mAh Battery</p>
+                    <p>Snapdragon 7 Gen2 Processor</p>
+                    <p>₹32,999</p>
+                    <div class="button-container">
+                        <button class="btn add-to-cart">
+                            <i class="cart-icon"></i>
+                            ADD TO CART
+                        </button>
+                        <button class="btn buy-now">
+                            <i class="lightning-icon"></i>
+                            BUY NOW
+                        </button>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="product-item">
+                <img src="realme3.jpg" alt="Realme 13 Pro 5G">
+                <div class="product-details">
+                    <h3>realme 13 Pro+ 5G (Emerald Green, 256 GB)</h3>
+                    <p>8 GB RAM | 256 GB ROM</p>
+                    <p>17.02 cm (6.7 inch) Full HD+ Display</p>
+                    <p>50MP + 8MP + 2MP | 32MP Front Camera</p>
+                    <p>5000 mAh Battery</p>
+                    <p>Snapdragon 7 Gen2 Processor</p>
+                    <p>₹32,999</p>
+                    <div class="button-container">
+                        <button class="btn add-to-cart">
+                            <i class="cart-icon"></i>
+                            ADD TO CART
+                        </button>
+                        <button class="btn buy-now">
+                            <i class="lightning-icon"></i>
+                            BUY NOW
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-item">
+            <img src="moto1.jpg" alt="Realme 13 Pro 5G">
+            <div class="product-details">
+                <h3>MOTOROLA Edge 50 (Peach Fuzz, 256 GB)</h3>
+                <p>8 GB RAM | 256 GB ROM</p>
+                <p>16.94 cm (6.67 inch) Display</p>
+                <p>50MP + 13MP + 10MP | 32MP Front Camera</p>
+                <p>5000 mAh Battery</p>
+                <p>Snapdragon 7 Gen 1 Accelerated Edition Processor</p>
+                <p>₹27,999</p>
+                <div class="button-container">
+                    <button class="btn add-to-cart">
+                        <i class="cart-icon"></i>
+                        ADD TO CART
+                    </button>
+                    <button class="btn buy-now">
+                        <i class="lightning-icon"></i>
+                        BUY NOW
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="product-item">
+            <img src="poco.jpg" alt="Realme 13 Pro 5G">
+            <div class="product-details">
+                <h3>POCO M6 Plus 5G (Misty Lavender, 128 GB)</h3>
+                <p>8 GB RAM | 128 GB ROM | Expandable Upto 1 TB</p>
+                <p>17.25 cm (6.79 inch) Full HD+ Display</p>
+                <p>108MP + 2MP | 13MP Front Camera</p>
+                <p>5030 mAh Battery</p>
+                <p>Snapdragon 4 Gen2 AE Processor</p>
+                <p>₹14,499</p>
+                <div class="button-container">
+                    <button class="btn add-to-cart">
+                        <i class="cart-icon"></i>
+                        ADD TO CART
+                    </button>
+                    <button class="btn buy-now">
+                        <i class="lightning-icon"></i>
+                        BUY NOW
+                    </button>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+</body>
+</html>

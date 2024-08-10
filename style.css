@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #2874f0;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.explore-plus {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.explore-plus span {
+    color: #ffe500;
+}
+
+.search-bar {
+    display: flex;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 2px 0 0 2px;
+}
+
+.search-bar button {
+    padding: 10px;
+    border: none;
+    background-color: #ffe500;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #212121;
+    padding: 10px 20px;
+    display: block;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    background-color: #2874f0;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container h1 {
+    margin: 0;
+}
+
+.header-container nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.header-container nav ul li {
+    display: inline;
+}
+
+.header-container nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+aside {
+    width: 20%;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.product-list {
+    width: 80%;
+    padding: 20px;
+}
+
+.product-item {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-item img {
+    max-width: 150px;
+    height: auto;
+}
+
+.product-details {
+    flex: 1;
+}
+
+.product-details h3 {
+    margin: 0 0 10px 0;
+}
+
+.product-details p {
+    margin: 5px 0;
+}
+
+.add-to-cart {
+    background-color: #ffa500;
+     /* Orange */
+}
+
+
+.buy-now {
+    background-color: #ff4500; /* OrangeRed */
+}
+.cart-icon::before {
+    content: '🛒'; /* Cart icon */
+}
+.lightning-icon::before {
+    content: '⚡'; /* Lightning icon */
+}
